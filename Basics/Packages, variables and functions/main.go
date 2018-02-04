@@ -4,12 +4,14 @@ import (
 	"fmt"
 )
 
-//variables with initializers:
-//type of variable could be omitted if initializer is present
+//short variable declaration:
+//k := 3 could be used in a function when declaring a variable
+//outside a function, every statement starts with a keyword
 
-var a, b, c = true, false, "Oh Yes!"
+var a, b = true, false
 
 func main() {
-    var d = 32
+    c := "Ok, fine"
+    d := 32
 	fmt.Println(a,b,c,d)
 }
