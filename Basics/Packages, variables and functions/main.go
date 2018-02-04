@@ -4,12 +4,15 @@ import (
 	"fmt"
 )
 
-//a function can return any number of results
+//named return values:
+//a return statement without arguments return the named return values 
 
-func swap(a , b  string) (string, string){
-   return b, a
+func split(a int) (b, c int){
+   b = a * 3 / 2
+   c = a + b
+   return
 }
 
 func main() {
-	fmt.Println(swap("Hello", "World"))
+	fmt.Println(split(7))
 }
