@@ -4,13 +4,12 @@ import (
 	"fmt"
 )
 
-//variables:
-//the var statement declares a list of variables
-//var could be in package or function level
+//variables with initializers:
+//type of variable could be omitted if initializer is present
 
-var a, b, c bool
+var a, b, c = true, false, "Oh Yes!"
 
 func main() {
-    var d int
+    var d = 32
 	fmt.Println(a,b,c,d)
 }
