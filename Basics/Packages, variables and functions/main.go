@@ -4,14 +4,14 @@ import (
 	"fmt"
 )
 
-//short variable declaration:
-//k := 3 could be used in a function when declaring a variable
+//zero values:
+//variables are declared without explict initial values are given their zero values
 //outside a function, every statement starts with a keyword
 
-var a, b = true, false
-
 func main() {
-    c := "Ok, fine"
-    d := 32
-	fmt.Println(a,b,c,d)
+    var a bool
+    var b string
+    var c int
+    var d float64
+	fmt.Printf("%v %q %v %v",a,b,c,d)
 }
