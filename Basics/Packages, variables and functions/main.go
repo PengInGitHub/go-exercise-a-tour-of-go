@@ -4,10 +4,12 @@ import (
 	"fmt"
 )
 
-func add(a , b  int) int{
-   return a+b
+//a function can return any number of results
+
+func swap(a , b  string) (string, string){
+   return b, a
 }
 
 func main() {
-	fmt.Printf("Value of 3+4: %v", add(3,4))
+	fmt.Println(swap("Hello", "World"))
 }
