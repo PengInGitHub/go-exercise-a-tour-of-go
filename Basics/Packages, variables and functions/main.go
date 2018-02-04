@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
-    "math"
+    //"math"
 )
 
-//type conversion:
-//the expression T(v) converts variable v to type T
-//i := 64
-//f := float64(i)
-//u := uint(f)
+//constants:
+//constants are declared with the keyword const
+//constants cannot be declared with the syntax :=
+
+const Pi = 3.14
 
 func main() {
-    a, b := 3, 4 
-    c := math.Sqrt(float64(a*a+b*b))
-    d := uint(c)
-	fmt.Println(a,c,d)
+    const World = "World"
+    const Truth = true
+	fmt.Println(Pi)
+    fmt.Println(World, Truth)
 }
