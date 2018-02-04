@@ -1,13 +1,19 @@
 package main
 
 import "fmt"
+import "math"
 
-//"for" is the "while" in Go
+//if
+//if in Go is same like for, no () is required for statements but {} are required
+
+func sqrt(a float64) float64 {
+
+   if a<0 {
+        return sqrt(-a)
+    }
+    return math.Sqrt(a)
+}
 
 func main() {
-	sum := 1
-	for sum < 1000 {
-		sum += sum
-	}
-	fmt.Println(sum)
+	fmt.Println(sqrt(-2), sqrt(16))
 }
