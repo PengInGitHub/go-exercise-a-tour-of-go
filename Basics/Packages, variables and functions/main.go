@@ -4,15 +4,13 @@ import (
 	"fmt"
 )
 
-//named return values:
-//a return statement without arguments return the named return values 
+//variables:
+//the var statement declares a list of variables
+//var could be in package or function level
 
-func split(a int) (b, c int){
-   b = a * 3 / 2
-   c = a + b
-   return
-}
+var a, b, c bool
 
 func main() {
-	fmt.Println(split(7))
+    var d int
+	fmt.Println(a,b,c,d)
 }
