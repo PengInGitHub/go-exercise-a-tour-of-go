@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println(pow(5,6,500))
-    fmt.Println(pow(3,3,50))
+    fmt.Println(
+        PowIfElse(5,6,500),
+        PowIfElse(3,3,50),
+    )
 }
