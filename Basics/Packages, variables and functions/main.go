@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-    PrintExportedPi()
+    fmt.Println(add(3,4))
 }
