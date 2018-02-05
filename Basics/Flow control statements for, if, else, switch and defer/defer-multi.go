@@ -1,0 +1,17 @@
+package main 
+
+import (
+"fmt"
+
+) 
+
+func PrintDeferStacking(){
+    
+    fmt.Println("Count")
+    for i:=0;i<10;i++{
+        defer fmt.Println(i)
+    }
+
+    fmt.Println("done")
+
+}
