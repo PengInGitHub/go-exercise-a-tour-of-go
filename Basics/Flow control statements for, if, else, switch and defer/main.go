@@ -1,5 +1,6 @@
 package main
 
 func main() {
-    Forever()
+    PrintSqrt(-3)
+    PrintSqrt(30)
 }
