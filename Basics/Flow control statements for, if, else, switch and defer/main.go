@@ -1,6 +1,8 @@
 package main
 
+import "fmt"
+
 func main() {
-    PrintSqrt(-3)
-    PrintSqrt(30)
+    fmt.Println(pow(5,6,500))
+    fmt.Println(pow(3,3,50))
 }
