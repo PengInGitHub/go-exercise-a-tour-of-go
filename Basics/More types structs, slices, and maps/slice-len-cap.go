@@ -13,7 +13,9 @@ func PrintSliceLen(){
     SliceExample = SliceExample[:0]
     PrintSliceFunc(SliceExample)
 
-
+    //extend the slice length
+    SliceExample = SliceExample[:4]
+    PrintSliceFunc(SliceExample)
 
 }
 
