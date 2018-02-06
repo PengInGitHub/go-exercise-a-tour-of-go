@@ -17,6 +17,9 @@ func PrintSliceLen(){
     SliceExample = SliceExample[:4]
     PrintSliceFunc(SliceExample)
 
+    //drop first two values
+    SliceExample = SliceExample[2:]
+    PrintSliceFunc(SliceExample)
 }
 
 
