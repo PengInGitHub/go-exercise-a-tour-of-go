@@ -2,7 +2,7 @@ package main
 
 import (
 "fmt"
-
+"strings"
 ) 
 
 //create a tic-tac-toe board
@@ -21,6 +21,7 @@ func PrintBoard(){
     board[1][0]="o"    
     board[1][2]="x"    
  
-    fmt.Println(board)
-
+    for i:=0;i<len(board);i++{
+        fmt.Printf("%s\n",strings.Join(board[i]," "))
+    }
 }
