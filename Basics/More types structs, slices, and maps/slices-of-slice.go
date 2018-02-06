@@ -6,8 +6,14 @@ import (
 ) 
 
 //create a tic-tac-toe board
-func Print(){
-    
-    fmt.Println()
+
+func PrintBoard(){
+    board := [][]string{
+             []string{"_","_","_"},
+             []string{"_","_","_"},
+             []string{"_","_","_"},
+    }
+  
+    fmt.Println(board)
 
 }
