@@ -1,12 +1,12 @@
 package main 
 
 import (
-"fmt"
+//"fmt"
 
 ) 
 
-func Print(){
+func main(){
     
-    fmt.Println()
+    PrintPointer()
 
 }
