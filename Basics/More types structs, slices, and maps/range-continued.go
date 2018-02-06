@@ -8,7 +8,9 @@ import (
 func PrintRangeContinued(){
     pow := make([]int,10)
     for i:= range pow{
-         pow[i]=1<<uint(i)
+         pow[i]=1<<uint(i) //uint(i) = 2**i
     }
-    fmt.Println(pow)
+    for _,value := range pow{
+         fmt.Printf("%d\n",value)
+    }
 }
