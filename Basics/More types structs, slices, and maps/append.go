@@ -12,5 +12,5 @@ func PrintAppend(){
 }
 
 func HelperMethodPrintSlice(s []int){
-     fmt.Printf("len=%s, cap=%s, %v\n",len(s),cap(s),s)
+     fmt.Printf("len=%d, cap=%d, %v\n",len(s),cap(s),s)
 }
