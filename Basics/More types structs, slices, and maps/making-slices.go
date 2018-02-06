@@ -20,6 +20,8 @@ func PrintMake(){
     c := make([]int,0,50)
     PrintSliceHelper("c",c)
 
+    d := b[:2]
+    PrintSliceHelper("d",d)
 }
 
 func PrintSliceHelper(s string, a[]int){
