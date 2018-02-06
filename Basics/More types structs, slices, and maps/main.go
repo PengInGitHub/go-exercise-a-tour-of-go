@@ -7,6 +7,6 @@ import (
 
 func main(){
     
-    PrintBoard()
+    PrintAppend()
 
 }
