@@ -6,7 +6,11 @@ import (
 ) 
 
 func PrintAppend(){
-    var s []int
+    var s []int //nil slices
+    HelperMethodPrintSlice(s)
+
+    //append works on nil, len=1, cap=1
+    s=append(s,0)
     HelperMethodPrintSlice(s)
 
 }
