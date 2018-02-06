@@ -13,6 +13,14 @@ func PrintAppend(){
     s=append(s,0)
     HelperMethodPrintSlice(s)
 
+    //slice keeps growing
+    s=append(s,10)
+    HelperMethodPrintSlice(s)
+
+    //slice keeps growing
+    s=append(s,10)
+    HelperMethodPrintSlice(s)
+
 }
 
 func HelperMethodPrintSlice(s []int){
