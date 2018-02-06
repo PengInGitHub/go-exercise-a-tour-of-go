@@ -17,8 +17,8 @@ func PrintAppend(){
     s=append(s,10)
     HelperMethodPrintSlice(s)
 
-    //slice keeps growing
-    s=append(s,10)
+    //add more than one element
+    s=append(s,10,2,321,4,22,55)
     HelperMethodPrintSlice(s)
 
 }
