@@ -21,6 +21,7 @@ func PrintBoard(){
     board[1][0]="o"    
     board[1][2]="x"    
  
+    //strings.Join: The separator string sep is placed between elements in the resulting string
     for i:=0;i<len(board);i++{
         fmt.Printf("%s\n",strings.Join(board[i]," "))
     }
