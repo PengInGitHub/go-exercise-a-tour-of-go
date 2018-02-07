@@ -23,7 +23,9 @@ import (
 //write directly to an nil map will cause a runtime panic, so "var m map[string]int" is not a proper way to init a map
 //to do that, use "make": m=make(map[string]int)
 
-
+//how "make" works
+//"make" allocates and initializes a hash map data structure,
+//and return a map value points to the hash maps data structure
 
 func Print(){
     
