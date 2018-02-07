@@ -17,6 +17,11 @@ import (
 
 //example
 //var m map[string]int
+
+//why use "make" function
+//write directly to an nil map will cause a runtime panic, so "var m map[string]int" is not a proper way to init a map
+//to do that, use "make": m=make(map[string]int)
+
 func Print(){
     
     fmt.Println()
