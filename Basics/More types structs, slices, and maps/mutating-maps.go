@@ -27,8 +27,11 @@ import (
 //"make" allocates and initializes a hash map data structure,
 //and return a map value points to the hash maps data structure
 
-func Print(){
-    
-    fmt.Println()
+func PrintMakeMap(){
+    m := make(map[string]int)
+
+//working with maps
+    m["Answer"]=42
+    fmt.Println("The value:",m["Answer"])
 
 }
