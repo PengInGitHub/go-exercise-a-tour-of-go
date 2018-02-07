@@ -20,6 +20,6 @@ func AbsFunc(s AStruct) float64{
 
 func PrintMethodsPointersEx(){
     s := AStruct{3,4} 
-    ScaleFunc(&s,10)
+    ScaleFunc(&s,10)//use &s
     fmt.Println(AbsFunc(s))
 }
