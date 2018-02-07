@@ -34,4 +34,10 @@ func PrintMakeMap(){
     m["Answer"]=42
     fmt.Println("The value:",m["Answer"])
 
+    m["Question"]=422
+    fmt.Println("The value:",m["Question"])
+
+    m["Question"]=422222
+    fmt.Println("The value:",m["Question"])
+
 }
