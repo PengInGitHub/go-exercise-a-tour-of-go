@@ -11,8 +11,22 @@ import (
 //A closure is a function value that references variables from outside its body.
 //The function may access and assign to the referenced variables
 
+func add() func(int) int{
+    sum := 0
+    return func(x int) int{
+        sum += x
+        return sum
+    }
+}
+
 func PrintClosures(){
-    
-    fmt.Println()
+
+    pos, neg := add(), add()
+    for i:=0;i<10;i++{
+        fmt.Println(
+           pos(i),
+           neg(-2*i),
+         )
+    }
 
 }
