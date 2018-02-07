@@ -11,7 +11,7 @@ import (
 
 //pointer receivers are more common than value receivers, because methods often modify their receivers
 
-func (r RightTriangle) Scale(f float64){
+func (r *RightTriangle) Scale(f float64){
     r.SideA = r.SideA * f 
     r.SideB = r.SideB * f 
 }
