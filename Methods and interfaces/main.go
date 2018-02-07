@@ -1,12 +1,8 @@
 package main 
 
-import (
-"fmt"
 
-) 
-
-func Print(){
+func main(){
     
-    fmt.Println()
+    PrintMethod()
 
 }
