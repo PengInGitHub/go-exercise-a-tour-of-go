@@ -12,6 +12,8 @@ import (
 //map in golang
 //Go provides a built-in map type that implements a hash table.
 
+//what does map look like in golang
+//map[KeyType]ValueType
 
 func Print(){
     
