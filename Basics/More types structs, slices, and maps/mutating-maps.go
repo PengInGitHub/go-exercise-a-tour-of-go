@@ -17,10 +17,13 @@ import (
 
 //example
 //var m map[string]int
+//map is reference type, same as slice or pointer, so m is nil and doesnot point to an initialized map
 
 //why use "make" function
 //write directly to an nil map will cause a runtime panic, so "var m map[string]int" is not a proper way to init a map
 //to do that, use "make": m=make(map[string]int)
+
+
 
 func Print(){
     
