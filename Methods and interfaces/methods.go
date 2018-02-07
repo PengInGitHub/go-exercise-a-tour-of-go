@@ -16,8 +16,16 @@ func (v Vertex) Abs() float64 {
 //method in Go is the same as method in OOP, which belongs to a class
 //and could be called only from an instance of the class
 
+//add another example for method
+
+type TheInteger int
+
+func (a TheInteger) AddInt(b int) int {
+     return int(a) + b
+}
+
 func PrintMethod(){
-    v := Vertex{3, 4}
-	fmt.Println(v.Abs())
+    var x TheInteger = 100 
+	fmt.Println(x.AddInt(26))
     
 }
