@@ -43,4 +43,7 @@ func PrintMakeMap(){
     delete(m,"Question")
     fmt.Println("The value:",m["Question"]) //deleted key or donot-exist key will retun zero value
 
+    v, ok := m["Question"]
+    fmt.Println("The value:", v, "Present?",ok)
+
 }
