@@ -15,6 +15,8 @@ import (
 //what does map look like in golang
 //map[KeyType]ValueType
 
+//example
+//var m map[string]int
 func Print(){
     
     fmt.Println()
