@@ -12,6 +12,7 @@ type MapLatLong struct{
 
 func PrintMapLiterals(){
     var m = map[string]MapLatLong{
+
         "Friedrichstr":MapLatLong{
             53.2,11.2, //why one more comma after two numbers?
         },
