@@ -16,7 +16,7 @@ func PrintMapLiterals(){
             53.2,11.2, //why one more comma after two numbers?
         },
         "Gesundbounen":MapLatLong{
-            54.22,10.2,
+            54.22,10.2,//why one more comma after two numbers?
         },
     }
     
