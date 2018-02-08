@@ -16,5 +16,5 @@ func AbsInFunc(v *VertextIndirection) float64{
 func PrintIndirectionValues(){
     v := VertextIndirection{3,4}
     
-    fmt.Println(AbsInFunc(v))
+    fmt.Println(AbsInFunc(&v))
 }
