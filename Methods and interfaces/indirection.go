@@ -10,8 +10,11 @@ import (
 
 //in comparison methods with pointer receiver take either a pointer or a value
 //var v Vertex
-//&v.(10) --- this is ok
-//v.(10) --- this is fine as well
+//&v.Scale(10) --- this is ok
+//v.Scale(10) --- this is fine as well
+
+//the reason is, Go interprets v.Scale(5) as &v.Scale(5)
+//since (v *Vertext)Scale() method has a pointer receiver
 
 func PrintIndirection(){
     
