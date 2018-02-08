@@ -5,7 +5,7 @@ import (
 "math"
 )
 
-func (v *VertextIndirection) AbsIn() float64{
+func (v *VertextIndirection) AbsIn() float64{ // donot forget AbsIn()
     return math.Sqrt(v.a*v.a + v.b*v.b)
 }
 
