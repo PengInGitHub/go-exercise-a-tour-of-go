@@ -16,6 +16,8 @@ import (
 //the reason is, Go interprets v.Scale(5) as &v.Scale(5)
 //since (v *Vertext)Scale() method has a pointer receiver
 
+//this is method pointer indirection
+
 func PrintIndirection(){
     
     
