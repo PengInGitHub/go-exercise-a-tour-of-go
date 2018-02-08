@@ -18,8 +18,23 @@ import (
 
 //this is method pointer indirection
 
+type VertextIndirection struct{
+    a, b float64
+}
+
+func (v *VertextIndirection) ScaleMethodIn(f float64){
+    v.a = v.a * f
+    v.b = v.b * f
+}
+
+func ScaleFuncIn (v *VertextIndirection, f float64){
+    v.a = v.a * f
+    v.b = v.b * f
+}
+
 func PrintIndirection(){
     
-    
-    fmt.Println()
+    v := VertextIndirection{3,4}
+    v.ScaleMethodIn(10)
+    fmt.Println(v)
 }
