@@ -37,5 +37,7 @@ func PrintIndirection(){
     v := VertextIndirection{3,4}
     p := &v
     p.ScaleMethodIn(5)
+
+    ScaleFuncIn(&v, 10)
     fmt.Println(v)
 }
