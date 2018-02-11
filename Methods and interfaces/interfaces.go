@@ -38,7 +38,7 @@ func PrintInterface(){
     v := VertexInterface{3,4}
 
     a = f //a MyFloat2 implements Abser
-    a = &v //a My*VertexInterfaceFloat implements Abser
-    
     fmt.Println(a.Abs())
+
+    a = &v //a My*VertexInterfaceFloat implements Abser    
 }
