@@ -26,9 +26,7 @@ func (t T) M(){
     fmt.Println(t.S)
 }
 
-
-func Print(){
-    
-    
-    fmt.Println()
+func PrintImplcitly(){
+    var i I = T{"Oh this is a string"}
+    i.M()
 }
