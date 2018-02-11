@@ -5,7 +5,7 @@ import (
 
 )
 
-func Print(){
+func PriPrintInterfacent(){
     
     
     fmt.Println()
