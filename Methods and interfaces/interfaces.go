@@ -23,6 +23,14 @@ func (f MyFloat) Abs float64{
     return float64(f)
 }
 
+type VertexInterface struct{
+    X, Y float64
+}
+
+func (v *VertexInterface) Abs float64{
+    return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
 func PriPrintInterfacent(){
     
     
