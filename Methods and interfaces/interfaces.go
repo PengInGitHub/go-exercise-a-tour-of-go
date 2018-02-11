@@ -33,8 +33,12 @@ func (v *VertexInterface) Abs float64{
 
 func PriPrintInterfacent(){
     var a Abser
+
     f := MyFloat(-math.Sqrt2)
     v := VertexInterface{3,4}
+
+    a = f //a MyFloat implements Abser
+    a = &v //a My*VertexInterfaceFloat implements Abser
     
     fmt.Println()
 }
